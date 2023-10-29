@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# md5sum 1219f5830e4a7208b1c7ba2f089a16c8
+
 FILENAME="remasternet.pth.tar"
-FILEURL="https://drive.google.com/file/d/1HYDsWF2pi3MrOikHqDm8da0cOVIxe8kT/view?usp=drive_link"
+FILEURL="http://iizuka.cs.tsukuba.ac.jp/data/remasternet.pth.tar"
 FILEMD5="1219f5830e4a7208b1c7ba2f089a16c8"
 
 echo "Downloading the RemasterNet (245MB)..."
