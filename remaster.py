@@ -37,7 +37,7 @@ device = torch.device('cuda:0' if opt.gpu else 'cpu')
 
 # Load remaster network
 modelR = __import__( 'model.remasternet', fromlist=['NetworkR'] ).NetworkR()
-state_dict = torch.load( 'model/remasternet.pth.tar' )
+state_dict = torch.load( '/content/siggraphasia2019_remastering/model/remasternet.pth.tar' )
 modelR.load_state_dict( state_dict['modelR'] )
 modelR = modelR.to(device)
 modelR.eval()
